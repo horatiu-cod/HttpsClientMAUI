@@ -18,8 +18,6 @@ namespace MauiClient
 #if DEBUG
 		builder.Logging.AddDebug();
 #endif
-            //builder.Services.AddHttpClient("api", httpClient => httpClient.BaseAddress = new Uri("https://localhost:7167/WeatherForecast"));
-
             return builder.Build();
         }
     }
